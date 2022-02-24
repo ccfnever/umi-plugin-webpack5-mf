@@ -1,0 +1,27 @@
+{
+  "name": "umi-plugin-webpack5-mf",
+  "version": "1.0.0",
+  "description": "",
+  "peerDependencies": {
+    "umi": "3.x"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "start": "CURRENT_PROJECT=example umi ui",
+    "build": "father-build"
+  },
+  "keywords": [
+    "umi",
+    "dumi",
+    "umi plugin",
+    "webpack5"
+  ],
+  "author": "ccfnever",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "father-build": "^1.21.1",
+    "umi": "^3.5.20"
+  }
+}
